@@ -3,10 +3,10 @@
   --title-color: #212121;
   --text-color: #757575;
   --logo-color: #000000;
-  --footer-links-color: rgba(255, 255, 255, 0.6);
+  --neutral-dark-color: rgba(255, 255, 255, 0.6);
   --primary-background-color: #ffffff;
-  --secondary-background-color: #2f303a;
-  --button-color: #f5f4fa;
+  --primary-dark-color: #2f303a;
+  --primary-light-color: #f5f4fa;
 }
 
 body {
@@ -66,7 +66,7 @@ body {
 
 .hero {
   text-align: center;
-  background-color: var(--secondary-background-color);
+  background-color: var(--primary-dark-color);
 }
 
 .hero-text {
@@ -116,6 +116,10 @@ body {
   line-height: 1.7;
 }
 
+.our-team {
+  background-color: var(--primary-light-color);
+}
+
 .person {
   font-size: 16px;
 }
@@ -126,7 +130,7 @@ body {
 }
 
 .page-footer {
-  background-color: var(--secondary-background-color);
+  background-color: var(--primary-dark-color);
 }
 
 .page-adress {
@@ -139,7 +143,7 @@ body {
 
 .adress-link {
   line-height: 1.71;
-  color: var(--footer-links-color);
+  color: var(--neutral-dark-color);
 }
 
 .adress-link:hover,
@@ -152,7 +156,7 @@ body {
   font-weight: 500;
   letter-spacing: 0.03em;
   color: var(--title-color);
-  background-color: var(--button-color);
+  background-color: var(--neutral-dark-color);
 }
 
 .filter-button:hover,
