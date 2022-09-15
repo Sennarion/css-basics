@@ -1,0 +1,151 @@
+:root {
+  --accent-color: #2196f3;
+  --text-color: #757575;
+  --white: #ffffff;
+  --black: #000000;
+  --footer-links-color: rgba(255, 255, 255, 0.6);
+  --headling-color: #212121;
+  --background-primary-color: #ffffff;
+  --background-secondary-color: #2f303a;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 26px;
+  font-family: 'Raleway', sans-serif;
+  color: var(--black);
+}
+
+.logo span {
+  color: var(--accent-color);
+}
+
+.nav-link {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--headling-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+.contact-link {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
+}
+
+.hero {
+  background-color: var(--background-secondary-color);
+  text-align: center;
+}
+
+.hero-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.hero-button {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--accent-color);
+}
+
+.section-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--headling-color);
+}
+
+.feature-title {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--headling-color);
+}
+
+.feature-text {
+  line-height: 1.7;
+}
+
+.person {
+  font-size: 16px;
+}
+
+.person-name {
+  font-weight: 500;
+  color: var(--headling-color);
+}
+
+.page-footer {
+  background-color: var(--background-secondary-color);
+}
+
+.page-adress {
+  font-style: normal;
+}
+
+.adress-text {
+  color: var(--white);
+}
+
+.adress-link {
+  color: var(--footer-links-color);
+}
+
+.adress-link:hover,
+.adress-link:focus {
+  color: var(--accent-color);
+}
+
+.filter-button {
+  font-size: 16px;
+  color: var(--headling-color);
+  font-weight: 500;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--white);
+}
+
+.product-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  color: var(--headling-color);
+}
+
+.product-description {
+  font-size: 16px;
+  line-height: 1.87;
+}
