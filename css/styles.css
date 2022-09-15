@@ -1,18 +1,19 @@
 :root {
   --accent-color: #2196f3;
+  --title-color: #212121;
   --text-color: #757575;
-  --white: #ffffff;
-  --black: #000000;
+  --logo-color: #000000;
   --footer-links-color: rgba(255, 255, 255, 0.6);
-  --headling-color: #212121;
-  --background-primary-color: #ffffff;
-  --background-secondary-color: #2f303a;
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #2f303a;
+  --button-color: #f5f4fa;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   color: var(--text-color);
+  background-color: var(--primary-background-color);
 }
 
 .list {
@@ -26,7 +27,7 @@ body {
 .logo {
   font-size: 26px;
   font-family: 'Raleway', sans-serif;
-  color: var(--black);
+  color: var(--logo-color);
 }
 
 .logo span {
@@ -36,7 +37,11 @@ body {
 .nav-link {
   font-size: 14px;
   font-weight: 500;
-  color: var(--headling-color);
+  color: var(--title-color);
+}
+
+.nav-link.current {
+  color: var(--accent-color);
 }
 
 .nav-link:hover,
@@ -56,7 +61,7 @@ body {
 }
 
 .hero {
-  background-color: var(--background-secondary-color);
+  background-color: var(--secondary-background-color);
   text-align: center;
 }
 
@@ -65,32 +70,39 @@ body {
   font-size: 44px;
   line-height: 1.36;
   text-transform: uppercase;
-  color: var(--white);
+  color: var(--primary-background-color);
 }
 
 .hero-button {
   font-size: 16px;
   font-weight: 700;
-  color: var(--white);
+  color: var(--primary-background-color);
+  background-color: var(--accent-color);
 }
 
 .hero-button:hover,
 .hero-button:focus {
   color: var(--accent-color);
+  background-color: var(--primary-background-color);
+}
+
+.hero-button,
+.filter-button {
+  cursor: pointer;
 }
 
 .section-title {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  color: var(--headling-color);
+  color: var(--title-color);
 }
 
 .feature-title {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 700;
-  color: var(--headling-color);
+  color: var(--title-color);
 }
 
 .feature-text {
@@ -103,11 +115,11 @@ body {
 
 .person-name {
   font-weight: 500;
-  color: var(--headling-color);
+  color: var(--title-color);
 }
 
 .page-footer {
-  background-color: var(--background-secondary-color);
+  background-color: var(--secondary-background-color);
 }
 
 .page-adress {
@@ -115,10 +127,11 @@ body {
 }
 
 .adress-text {
-  color: var(--white);
+  color: var(--primary-background-color);
 }
 
 .adress-link {
+  line-height: 1.71;
   color: var(--footer-links-color);
 }
 
@@ -129,20 +142,22 @@ body {
 
 .filter-button {
   font-size: 16px;
-  color: var(--headling-color);
   font-weight: 500;
+  color: var(--title-color);
+  background-color: var(--button-color);
 }
 
 .filter-button:hover,
 .filter-button:focus {
-  color: var(--white);
+  color: var(--primary-background-color);
+  background-color: var(--accent-color);
 }
 
 .product-title {
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
-  color: var(--headling-color);
+  color: var(--title-color);
 }
 
 .product-description {
