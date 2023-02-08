@@ -1,1 +1,1 @@
-# goit-markup-hw-02
+CSS basics
